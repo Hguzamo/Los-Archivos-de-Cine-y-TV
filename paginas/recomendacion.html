@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hector Guzman Amor">
+    <link rel="icon" href="../imagenes/icono_pagina.png">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Archivos Cine y TV</title>
+</head>
+<body>
+    <header>
+        <div class="parte-arriba-cabecera">
+            <img alt="Los-Archivos-de-Cine-y-Tv" class="titulo" src="../imagenes/titulo_arch_cine_tv.png">
+            <img alt="cinta-pelicula" class="cinta-giratoria" src="../imagenes/rueda_proyector.png">
+        </div>
+        <nav class="menu-navegacion">
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="recomendacion.html">Recomendación</a>
+                </li>
+                <li>
+                    <a href="sobremi.html">Sobre mí</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="contenedor">
+
+                <div class="tarjeta-pelicula-cabecera">
+                    <h1>RECOMENDADOR DE PELÍCULAS POR GÉNERO</h1>
+                </div>
+
+                <div class="contenedor-pelicula">
+                    <p class="texto-inicial">Selecciona un género y pulsa el botón para encontrar una película.</p>
+                </div>
+
+                <div class="elementos-control">
+                    <div class="contenedor-categorias">
+                        <label for="categoria">SELECCIONA UN GÉNERO:</label>
+                        <select class="categoria" id="categoria"></select>
+                    </div>
+
+                    <button class="boton-obtener-pelicula" id="boton-obtener-pelicula">BUSCAR PELÍCULA</button>
+                </div>
+
+        </div>
+        <img alt="espectadores" class="espectadores" src="../imagenes/espectadores.png">
+    </main>
+    <footer>
+        <div class="pie-izquierdo">
+            <p>Hecho por Héctor Guzmán Amor (sin el uso de IA).</p>
+        </div>
+        <div class="pie-derecho">
+            <p>Con el uso de la API</p>
+            <a href="https://developer.themoviedb.org/docs/getting-started">
+            <img alt="The Movie Database" src="../imagenes/tmdb.svg">
+            </a>
+        </div>
+    </footer>
+    <script src="../js/javascript.js"></script>
+</body>
+</html>

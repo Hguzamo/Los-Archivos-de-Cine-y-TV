@@ -10,8 +10,12 @@
 <body>
     <header>
         <div class="parte-arriba-cabecera">
-            <img class="titulo" src="imagenes/titulo_arch_cine_tv.png">
-            <img class="claqueta" src="imagenes/claqueta.png">
+            <img alt="Los-Archivos-de-Cine-y-Tv" class="titulo" src="imagenes/titulo_arch_cine_tv.png">
+            <div class="cuadro-busqueda">
+                <input type="text" id="input-busqueda" placeholder="Buscar...">
+                <div class="resultados-busqueda" id="resultados-busqueda"></div>
+            </div>
+            <img alt="cinta-pelicula" class="cinta-giratoria" src="imagenes/rueda_proyector.png">
         </div>
         <nav class="menu-navegacion">
             <ul>
@@ -19,7 +23,7 @@
                     <a href="index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="paginas/recomendacion.html">Recomendacion</a>
+                    <a href="paginas/recomendacion.html">Recomendación</a>
                 </li>
                 <li>
                     <a href="paginas/sobremi.html">Sobre mí</a>
@@ -30,13 +34,45 @@
     
     <main>
         <div class="contenedor">
-            <img class="wip" src="imagenes/work-in-progress-icon.png">
+            <h2 class="titulo-seccion">Cartelera</h2>
+
+            <section class="fila-peliculas">
+                <p class="nombre-fila">Películas</p>
+                <div class="lista-posters" id="peliculas">
+                    <img src="" class="poster-menu" id="post-p-1">
+                    <img src="" class="poster-menu" id="post-p-2">
+                    <img src="" class="poster-menu" id="post-p-3">
+                    <img src="" class="poster-menu" id="post-p-4">
+                    <img src="" class="poster-menu" id="post-p-5">
+                    <img src="" class="poster-menu" id="post-p-6">
+                    <img src="" class="poster-menu" id="post-p-7">
+                    <img src="" class="poster-menu" id="post-p-8">
+                    <img src="" class="poster-menu" id="post-p-9">
+                    <img src="" class="poster-menu" id="post-p-10">
+                </div>
+            </section>
+
+            <section class="fila-peliculas">
+                <p class="nombre-fila">Series</p>
+                <div class="lista-posters" id="series">
+                    <img src="" class="poster-menu" id="post-s-1">
+                    <img src="" class="poster-menu" id="post-s-2">
+                    <img src="" class="poster-menu" id="post-s-3">
+                    <img src="" class="poster-menu" id="post-s-4">
+                    <img src="" class="poster-menu" id="post-s-5">
+                    <img src="" class="poster-menu" id="post-s-6">
+                    <img src="" class="poster-menu" id="post-s-7">
+                    <img src="" class="poster-menu" id="post-s-8">
+                    <img src="" class="poster-menu" id="post-s-9">
+                    <img src="" class="poster-menu" id="post-s-10">
+                </div>
+            </section>
         </div>
-        <img class="espectadores" src="imagenes/espectadores.png">
+        <img alt="espectadores" class="espectadores" src="imagenes/espectadores.png">
     </main>
     <footer>
         <div class="pie-izquierdo">
-            <p>Hecho por Héctor Guzmán Amor (sin fines comerciales).</p>
+            <p>Hecho por Héctor Guzmán Amor (sin el uso de IA).</p>
         </div>
         <div class="pie-derecho">
             <p>Con el uso de la API</p>
@@ -45,6 +81,7 @@
             </a>
         </div>
     </footer>
+    <script src="js/javascript.js"></script>
     
 </body>
 </html>
